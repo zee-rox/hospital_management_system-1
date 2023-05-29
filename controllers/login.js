@@ -20,8 +20,8 @@ var con = mysql.createConnection({
 
     host : 'localhost',
     user : 'root',
-    password : '',
-    database : 'nodelogin'
+    password : '123456',
+    database : 'hospital'
 });
 
 router.use(session({
